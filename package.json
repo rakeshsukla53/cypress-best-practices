@@ -1,0 +1,11 @@
+{
+  "scripts": {
+    "test": "cypress run",
+    "format": "prettier --write '**/*.{js,json,md}'",
+    "print": "find-cypress-specs --names"
+  },
+  "devDependencies": {
+    "cypress": "^10.11.0",
+    "prettier": "^2.5.1"
+  }
+}
